@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="display:flex;flex-direction: row;">
+        <div>
+            <h1 style="color:chocolate">MOVIE REVIEW</h1>
+        </div>
+    </div>
+    <header>
+        <form id="form">
+            <input type="text" autocomplete="off" id="search" placeholder="Search" class="search">
+        </form>
+    </header>
+    <main id="main">
+    </main>
+    <div style="display:flex;align-items:baseline;justify-content: center;">
+     <div><button style="height:50px;width:150px;border-radius: 6px;" onclick="pre()">pre</button></div>
+     <div><button style="height:50px;width:150px;border-radius: 6px;" id="page">1</button></div>
+     <div><button style="height:50px;width:150px;border-radius: 6px;" onclick="next()">next</button></div>
+    </div>
+    <br>
+    <br>
+
+<!-- js here -->
+    <script src="app.js"></script>
+    
+</body>
+</html>
